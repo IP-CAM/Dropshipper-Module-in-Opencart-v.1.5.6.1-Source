@@ -1,0 +1,371 @@
+<modification>
+<!--UPDATED TO WORK WITH OPENCART 1.5.5.1 -->
+<!--This is a commercial mod, so you cannot "share" it or use it in other sites,
+If you need an extended license or support, please contact me to dev@technopolaris.com-->
+	<id>New Fields on Registration Form (backend, frontend)</id>
+	<version>3.0</version>
+	<vqmver>2.3.0</vqmver>
+	<author>marvmen21[codekmarv]</author>
+
+<!--I*I*I*I*I*I*I*I*I*I==>FRONTEND FILES<==I*I*I*I*I*I*I*I*I*I-->
+                           <!--###CATALOG=>VIEW FILES###-->
+                            <!--standar register-->
+<file name="catalog/view/theme/*/template/account/register.tpl">
+<operation><search position="before"><![CDATA[
+          <td><span class="required">*</span> <?php echo $entry_firstname; ?></td>
+ ]]></search><add><![CDATA[
+ <tr>
+          <td><span class="required">*</span> <?php echo $entry_tc_no; ?></td>
+          <td><input type="text" name="tc_no" value="<?php echo $tc_no; ?>" />
+            <?php if ($error_tc_no) { ?>
+            <span class="error"><?php echo $error_tc_no; ?></span>
+            <?php } ?></td>
+        </tr>
+     ]]></add></operation>
+	 </file>
+                            <!--Checkout register-->
+<file name="catalog/view/theme/*/template/checkout/checkout.tpl">
+<operation><search position="after" offset="1" index="1"><![CDATA[
+$('#payment-address input[name=\'firstname\'] + br').after('<span class="error">' + json['error']['firstname'] + '</span>');
+ ]]></search><add><![CDATA[
+if (json['error']['tc_no']) {
+					$('#payment-address input[name=\'tc_no\'] + br').after('<span class="error">' + json['error']['tc_no'] + '</span>');
+				}
+     ]]></add></operation>
+	
+	
+	 </file>
+	 <file name="catalog/view/theme/*/template/checkout/register.tpl">
+<operation><search position="before"><![CDATA[
+  <span class="required">*</span> <?php echo $entry_firstname; ?><br />
+ ]]></search><add><![CDATA[
+<span class="required">*</span> <?php echo $entry_tc_no; ?><br />
+  <input type="text" name="tc_no"  value="" class="large-field" />
+  <br />
+<br />
+     ]]></add></operation>
+	
+	
+	 </file>
+
+                            <!--Account Edit-->
+<file name="catalog/view/theme/*/template/account/edit.tpl">
+<operation><search position="before"><![CDATA[
+          <td><span class="required">*</span> <?php echo $entry_firstname; ?></td>
+ ]]></search><add><![CDATA[
+ <tr>
+          <td><span class="required">*</span> <?php echo $entry_tc_no; ?></td>
+          <td><input type="text" name="tc_no" value="<?php echo $tc_no; ?>" />
+            <?php if ($error_tc_no) { ?>
+            <span class="error"><?php echo $error_tc_no; ?></span>
+            <?php } ?></td>
+        </tr>
+     ]]></add></operation>
+	 
+	</file>
+                       <!--###CATALOG=>CONTROLLER FILES###-->
+                            <!--standar register-->
+<file name="catalog/controller/account/register.php">
+<operation><search position="before"><![CDATA[
+$this->data['entry_fax'] = $this->language->get('entry_fax');
+]]></search><add><![CDATA[
+$this->data['entry_tc_no'] = $this->language->get('entry_tc_no');
+]]></add></operation>
+
+<operation><search position="before"><![CDATA[
+		if (isset($this->error['firstname'])) {
+ ]]></search><add><![CDATA[
+ if (isset($this->error['tc_no'])) {
+			$this->data['error_tc_no'] = $this->error['tc_no'];
+		} else {
+			$this->data['error_tc_no'] = '';
+		}
+		
+     ]]></add></operation>
+
+<operation><search position="before"><![CDATA[
+		if (isset($this->request->post['fax'])) {
+ ]]></search><add><![CDATA[
+ if (isset($this->request->post['tc_no'])) {
+    		$this->data['tc_no'] = $this->request->post['tc_no'];
+		} else {
+			$this->data['tc_no'] = '';
+		}
+		
+     ]]></add></operation>
+<operation><search position="after"><![CDATA[
+protected function validate() {
+ ]]></search><add><![CDATA[
+if ((utf8_strlen($this->request->post['tc_no']) < 1) || (utf8_strlen($this->request->post['tc_no']) > 32)) {
+      		$this->error['tc_no'] = $this->language->get('error_tc_no');
+    	}
+     ]]></add></operation></file>
+                            <!--Checkout register-->
+
+<file name="catalog/controller/checkout/register.php">
+<operation><search position="before"><![CDATA[
+$this->data['entry_fax'] = $this->language->get('entry_fax');
+]]></search><add><![CDATA[
+		$this->data['entry_tc_no'] = $this->language->get('entry_tc_no');
+
+]]></add></operation>
+
+<operation><search position="before"><![CDATA[  
+				if ((utf8_strlen($this->request->post['firstname']) < 1) || (utf8_strlen($this->request->post['firstname']) > 32)) {
+ ]]></search><add><![CDATA[
+ if ((utf8_strlen($this->request->post['tc_no']) < 3) || (utf8_strlen($this->request->post['tc_no']) > 32)) {
+					$json['error']['tc_no'] = $this->language->get('error_tc_no');
+				}
+				
+     ]]></add></operation></file>
+                            
+                            <!--Account Edit-->
+<file name="catalog/controller/account/edit.php">
+<operation><search position="before"><![CDATA[
+		$this->data['entry_fax'] = $this->language->get('entry_fax');
+]]></search><add><![CDATA[
+		$this->data['entry_tc_no'] = $this->language->get('entry_tc_no');
+]]></add></operation>
+
+<operation><search position="before"><![CDATA[
+		if (isset($this->error['telephone'])) {
+ ]]></search><add><![CDATA[
+ if (isset($this->error['tc_no'])) {
+			$this->data['error_tc_no'] = $this->error['tc_no'];
+		} else {
+			$this->data['error_tc_no'] = '';
+		}
+		
+     ]]></add></operation>
+
+<operation><search position="before"><![CDATA[
+		if (isset($this->request->post['fax'])) {
+]]></search><add><![CDATA[
+if (isset($this->request->post['tc_no'])) {
+			$this->data['tc_no'] = $this->request->post['tc_no'];
+		} elseif (isset($customer_info)) {
+			$this->data['tc_no'] = $customer_info['tc_no'];
+		} else {
+			$this->data['tc_no'] = '';
+		}
+
+]]></add></operation>
+
+<operation><search position="after"><![CDATA[
+	protected function validate() {
+]]></search><add><![CDATA[
+if ((utf8_strlen($this->request->post['tc_no']) < 1) || (utf8_strlen($this->request->post['tc_no']) > 32)) {
+      		$this->error['tc_no'] = $this->language->get('error_tc_no');
+    	}
+		
+]]></add></operation></file>
+                            <!--CATALOG=>MODEL FILES-->
+
+<file name="catalog/model/account/customer.php">
+<operation><search position="replace"><![CDATA[
+$this->db->query("INSERT INTO " . DB_PREFIX . "customer SET store_id = '" . (int)$this->config->get('config_store_id') . "',
+]]></search><add trim="true"><![CDATA[
+$this->db->query("INSERT INTO " . DB_PREFIX . "customer SET store_id = '" . (int)$this->config->get('config_store_id') . "', tc_no = '" . $this->db->escape($data['tc_no']) . "',
+]]></add></operation>
+
+<operation><search position="replace"><![CDATA[
+$this->db->query("UPDATE " . DB_PREFIX . "customer SET firstname = '" . $this->db->escape($data['firstname']) . "',
+]]></search><add trim="true"><![CDATA[
+$this->db->query("UPDATE " . DB_PREFIX . "customer SET firstname = '" . $this->db->escape($data['firstname']) . "',  tc_no = '" . $this->db->escape($data['tc_no']) . "', 
+]]></add></operation></file>
+
+                          
+<!--I*I*I*I*I*I*I*I*I*I==>BACKEND FILES<==I*I*I*I*I*I*I*I*I*I-->
+                            <!--ADMIN=>VIEW FILES-->
+<file name="admin/view/template/sale/customer_form.tpl">
+<operation><search position="before" index="1"><![CDATA[
+          <td><span class="required">*</span> <?php echo $entry_firstname; ?></td>
+ ]]></search><add><![CDATA[
+ <tr>
+          <td><span class="required">*</span> <?php echo $entry_tc_no; ?></td>
+          <td><input type="text" name="tc_no" value="<?php echo $tc_no; ?>" />
+            <?php if ($error_tc_no) { ?>
+            <span class="error"><?php echo $error_tc_no; ?></span>
+            <?php } ?></td>
+        </tr>
+     ]]></add></operation>
+	 </file>
+
+	                             <!--ADMIN=>CONTROLLER FILES-->
+<file name="admin/controller/sale/customer.php">
+<operation><search position="before"><![CDATA[
+    	$this->data['entry_fax'] = $this->language->get('entry_fax');
+]]></search><add><![CDATA[
+    		$this->data['entry_tc_no'] = $this->language->get('entry_tc_no');
+]]></add></operation>
+
+<operation><search position="before"><![CDATA[
+ 		if (isset($this->error['telephone'])) {
+ ]]></search><add><![CDATA[
+if (isset($this->error['tc_no'])) {
+			$this->data['error_tc_no'] = $this->error['tc_no'];
+		} else {
+			$this->data['error_tc_no'] = '';
+		}
+	
+     ]]></add></operation>
+
+<operation><search position="before"><![CDATA[
+    	if (isset($this->request->post['telephone'])) {
+ ]]></search><add><![CDATA[
+if (isset($this->request->post['tc_no'])) {
+			$this->data['tc_no'] = $this->request->post['tc_no'];
+		} elseif (isset($customer_info)) {
+			$this->data['tc_no'] = $customer_info['tc_no'];
+		} else {
+			$this->data['tc_no'] = '';
+		}
+
+     ]]></add></operation>
+<operation><search position="before"><![CDATA[
+    	if ((utf8_strlen($this->request->post['telephone']) < 3) || (utf8_strlen($this->request->post['telephone']) > 32)) {
+ ]]></search><add><![CDATA[
+ if ((strlen(utf8_decode($this->request->post['tc_no'])) < 3) || (strlen(utf8_decode($this->request->post['tc_no'])) > 32)) {
+      		$this->error['tc_no'] = $this->language->get('error_tc_no');
+    	}
+		
+
+     ]]></add></operation>
+	 <operation><search position="after"><![CDATA[
+'telephone'         => $result['telephone'],
+ ]]></search><add><![CDATA[
+ 					'tc_no'      => $result['tc_no'],
+
+     ]]></add></operation></file>
+	 
+	 <!--ADMIN=>MODEL FILES-->
+<file name="admin/model/sale/customer.php">
+<operation><search position="replace"><![CDATA[
+$this->db->query("INSERT INTO " . DB_PREFIX . "customer SET firstname = '" . $this->db->escape($data['firstname']) . "',
+]]></search><add trim="true"><![CDATA[
+$this->db->query("INSERT INTO " . DB_PREFIX . "customer SET firstname = '" . $this->db->escape($data['firstname']) . "', tc_no = '" . $this->db->escape($data['tc_no']) . "',
+]]></add></operation>
+
+<operation><search position="replace"><![CDATA[
+$this->db->query("UPDATE " . DB_PREFIX . "customer SET firstname = '" . $this->db->escape($data['firstname']) . "',
+]]></search><add trim="true"><![CDATA[
+$this->db->query("UPDATE " . DB_PREFIX . "customer SET firstname = '" . $this->db->escape($data['firstname']) . "',tc_no = '" . $this->db->escape($data['tc_no']) . "',
+]]></add></operation></file>
+                          
+<!--I*I*I*I*I*I*I*I*I*I==>SYSTEM FILES<==I*I*I*I*I*I*I*I*I*I-->
+                            <!--SYSTEM=>LIBRARY FILES-->
+<file name="system/library/customer.php">
+<operation><search position="after"><![CDATA[
+ class Customer {
+ ]]></search><add><![CDATA[
+ 	private $tc_no;
+	private $dob;
+	
+     ]]></add></operation>
+	 <operation><search position="before"><![CDATA[
+				$this->fax = $customer_query->row['fax'];
+ ]]></search><add><![CDATA[
+				$this->tc_no = $customer_query->row['tc_no'];
+				
+	]]></add></operation>
+				
+	<operation><search position="before"><![CDATA[
+		$this->fax = '';
+ ]]></search><add><![CDATA[
+		$this->tc_no = '';
+	]]></add></operation>
+	<operation><search position="before"><![CDATA[
+  	public function getFax() {
+ ]]></search><add><![CDATA[
+public function gettc_no() {
+		return $this->tc_no;
+  	}	
+
+	]]></add></operation></file>
+	
+<!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%==>LANGUAGE ENTRIES<==%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->	
+	  <!--CATALOG=>LANGUAGE FILES-->
+<file name="catalog/language/*/account/register.php">
+<operation><search position="before"><![CDATA[
+?>
+]]></search><add><![CDATA[
+$_['entry_tc_no']      = 'Your New Field Name';
+$_['error_tc_no']      = 'Your New Field error message';
+
+]]></add></operation>
+
+</file>
+<file name="catalog/language/*/account/edit.php">
+<operation><search position="before"><![CDATA[
+?>
+]]></search><add><![CDATA[
+$_['entry_tc_no']      = 'Your New Field Name';
+$_['error_tc_no']      = 'Your New Field error message';
+]]></add></operation>
+</file>
+                               <!--Checkout Account register and Guest-->
+<file name="catalog/language/*/checkout/checkout.php">
+<operation><search position="before"><![CDATA[
+?>
+]]></search><add><![CDATA[
+$_['entry_tc_no']      = 'Your New Field Name';
+$_['error_tc_no']      = 'Your New Field error message';
+]]></add></operation>
+</file>
+  <!--ADMIN=>LANGUAGE FILES-->
+<file name="admin/language/*/sale/customer.php">
+<operation><search position="before"><![CDATA[
+?>
+]]></search><add><![CDATA[
+$_['entry_tc_no']      = 'Your New Field Name';
+$_['error_tc_no']      = 'Your New Field error message';
+]]></add></operation>
+</file>
+
+
+
+
+
+
+<!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%==>LANGUAGE ENTRIES<==%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->	
+	  <!--CATALOG=>LANGUAGE FILES-->
+<file name="catalog/language/turkish/account/register.php">
+<operation><search position="before"><![CDATA[
+?>
+]]></search><add><![CDATA[
+$_['entry_tc_no']      = 'TC no';
+$_['error_tc_no']      = 'Lütfen TC numarasýný doðru giriniz';
+
+]]></add></operation>
+
+</file>
+<file name="catalog/language/turkish/account/edit.php">
+<operation><search position="before"><![CDATA[
+?>
+]]></search><add><![CDATA[
+$_['entry_tc_no']      = 'TC no';
+$_['error_tc_no']      = 'Lütfen TC numarasýný doðru giriniz';
+]]></add></operation>
+</file>
+                               <!--Checkout Account register and Guest-->
+<file name="catalog/language/turkish/checkout/checkout.php">
+<operation><search position="before"><![CDATA[
+?>
+]]></search><add><![CDATA[
+$_['entry_tc_no']      = 'TC no';
+$_['error_tc_no']      = 'Lütfen TC numarasýný doðru giriniz';
+]]></add></operation>
+</file>
+  <!--ADMIN=>LANGUAGE FILES-->
+<file name="admin/language/turkish/sale/customer.php">
+<operation><search position="before"><![CDATA[
+?>
+]]></search><add><![CDATA[
+$_['entry_tc_no']      = 'TC no';
+$_['error_tc_no']      = 'Lütfen TC numarasýný doðru giriniz';
+]]></add></operation>
+</file>
+
+
+</modification>
+

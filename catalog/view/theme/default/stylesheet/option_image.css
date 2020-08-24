@@ -1,0 +1,19 @@
+.option label,
+.option input[type=checkbox],
+.option input[type=radio] {
+  position: absolute;
+}
+
+.option input[type=checkbox],
+.option input[type=radio] {
+  height: 50px;
+  line-height: 50px;
+  margin-left: 10px;
+}
+
+
+.option label {
+  height: 55px;
+  line-height: 55px;
+  margin-left: 28px;
+}

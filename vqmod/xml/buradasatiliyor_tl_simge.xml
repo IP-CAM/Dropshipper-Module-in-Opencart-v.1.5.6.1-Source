@@ -1,0 +1,29 @@
+<modification>
+	<id>Burada Satılıyor TL Simge Değiştirici</id>
+	<version>1.0</version>
+	<vqmver>2.1.4</vqmver>
+	<author>www.kaisercrazy.com</author>		
+	<file name="catalog/view/theme/*/template/common/header.tpl">
+		<operation>
+			<search position="before"><![CDATA[</head>]]></search>
+			<add><![CDATA[
+		 <script type="text/javascript">
+			$(document).ready(function(){
+				// Header
+				$('a[title="Try"]').append($('<b>').addClass('fa').addClass('fa-try'));
+				
+				// Item Detail.
+				$('p.price .price-tax:first').before($('<b>&nbsp;&nbsp;</b>').addClass('fa').addClass('fa-try'));
+				$('p.price .price-tax:first').after($('<b></b>').addClass('fa').addClass('fa-try'));
+				
+				// Cart Detail
+				$('td.price,td.total').append('&nbsp;').append($('<b></b>').addClass('fa').addClass('fa-try'));
+				
+				$('#total td.right:eq(1),#total td.right:eq(3)').append('&nbsp;').append($('<b></b>').addClass('fa').addClass('fa-try'));
+				
+			});
+		</script>
+   ]]></add>
+	</operation>
+	</file>		
+</modification>

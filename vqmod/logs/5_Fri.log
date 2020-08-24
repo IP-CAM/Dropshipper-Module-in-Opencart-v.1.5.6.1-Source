@@ -1,0 +1,1110 @@
+---------- Date: 2014-01-17 09:28:19 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /admin/
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:28:24 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /admin/index.php?route=common/login
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:28:24 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /admin/index.php?route=common/home&amp;token=e7edb64c4f669c19849c782b8d6a3671
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:28:25 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /admin/index.php?route=common/home/chart&amp;token=e7edb64c4f669c19849c782b8d6a3671&amp;range=day
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:28:25 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/searchanise/async
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:28:29 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:28:30 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/searchanise/async
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:28:31 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /admin/index.php?route=localisation/currency&amp;token=e7edb64c4f669c19849c782b8d6a3671
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:28:31 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/searchanise/async
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:28:36 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /admin/index.php?route=localisation/currency/update&amp;token=e7edb64c4f669c19849c782b8d6a3671&amp;currency_id=4
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:28:37 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/searchanise/async
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:28:39 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /admin/index.php?route=localisation/currency/update&amp;token=e7edb64c4f669c19849c782b8d6a3671&amp;currency_id=4
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:28:40 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /admin/index.php?route=localisation/currency&amp;token=e7edb64c4f669c19849c782b8d6a3671
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:28:40 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/searchanise/async
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:28:42 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:28:42 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/searchanise/async
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:28:50 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /admin/index.php?route=localisation/currency/update&amp;token=e7edb64c4f669c19849c782b8d6a3671&amp;currency_id=4
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:28:51 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/searchanise/async
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:28:56 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /admin/index.php?route=localisation/currency/update&amp;token=e7edb64c4f669c19849c782b8d6a3671&amp;currency_id=4
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:28:56 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /admin/index.php?route=localisation/currency&amp;token=e7edb64c4f669c19849c782b8d6a3671
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:28:57 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/searchanise/async
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:28:58 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:28:59 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/searchanise/async
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:29:36 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /admin/index.php?route=localisation/currency/update&amp;token=e7edb64c4f669c19849c782b8d6a3671&amp;currency_id=4
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:29:36 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/searchanise/async
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:29:38 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /admin/index.php?route=localisation/currency/update&amp;token=e7edb64c4f669c19849c782b8d6a3671&amp;currency_id=4
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:29:39 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /admin/index.php?route=localisation/currency&amp;token=e7edb64c4f669c19849c782b8d6a3671
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:29:39 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/searchanise/async
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:29:41 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:29:41 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/searchanise/async
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:29:45 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/currency
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:29:46 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=common/home
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:29:46 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/searchanise/async
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:29:51 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/currency
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:29:52 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=common/home
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:29:52 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/searchanise/async
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:29:54 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/currency
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:29:55 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=common/home
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:29:55 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/searchanise/async
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:29:57 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/currency
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:29:58 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=common/home
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:29:59 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/searchanise/async
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:30:05 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/currency
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:30:06 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=common/home
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:30:07 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/searchanise/async
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:30:12 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /admin/index.php?route=localisation/currency/update&amp;token=e7edb64c4f669c19849c782b8d6a3671&amp;currency_id=1
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:30:13 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/searchanise/async
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:30:24 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /admin/index.php?route=localisation/currency&amp;token=e7edb64c4f669c19849c782b8d6a3671
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:30:25 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/searchanise/async
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:30:26 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /admin/index.php?route=localisation/currency/update&amp;token=e7edb64c4f669c19849c782b8d6a3671&amp;currency_id=3
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:30:27 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/searchanise/async
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:30:31 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/currency
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:30:32 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=common/home
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:30:32 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/searchanise/async
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:30:34 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/currency
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:30:35 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=common/home
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:30:35 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/searchanise/async
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:30:36 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/currency
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:30:38 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=common/home
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:30:38 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/searchanise/async
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:30:42 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /admin/index.php?route=localisation/currency&amp;token=e7edb64c4f669c19849c782b8d6a3671
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:30:42 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/searchanise/async
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:30:45 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /admin/index.php?route=localisation/currency/update&amp;token=e7edb64c4f669c19849c782b8d6a3671&amp;currency_id=2
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:30:45 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/searchanise/async
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:35:27 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /admin/index.php?route=localisation/currency/update&amp;token=e7edb64c4f669c19849c782b8d6a3671&amp;currency_id=2
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:35:28 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /admin/index.php?route=localisation/currency&amp;token=e7edb64c4f669c19849c782b8d6a3671
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:35:28 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/searchanise/async
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:35:30 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=common/home
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 09:35:31 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/searchanise/async
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : system/library/currency.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $string .= $symbol_left;
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 12:06:31 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=checkout/success
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): </head>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 12:06:34 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/cart
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): </head>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 12:06:35 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=module/cart
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): </head>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 12:06:40 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=common/home
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): </head>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-01-17 12:06:46 ~ IP : 46.1.150.178 ----------
+REQUEST URI : /index.php?route=common/home
+MOD DETAILS:
+   modFile   : /home/buradasatiliyor.net/httpdocs/vqmod/xml/tl_simge_degistir.xml
+   id        : TL Simge Değiştirici
+   version   : 1.1
+   vqmver    : 2.1.4
+   author    : www.kaisercrazy.com
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): </head>
+
+----------------------------------------------------------------------
+
+

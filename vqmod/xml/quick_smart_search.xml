@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+    <id>Quick Smart Search</id>
+    <version>1.4.x and 1.5.x</version>
+    <vqmver required="true">2.4.0</vqmver>
+    <author>codeex</author>
+	
+    <file name="catalog/view/theme/*/template/common/header.tpl">
+        <operation error="abort">
+            <search position="before" ><![CDATA[</head>]]></search>
+            <add><![CDATA[ <script type="text/javascript"><!--
+         var min_char_to_perform_search = "<?php echo $qss_min_word_lenght_to_active_search; ?>";
+        <?php if($qss_status =='1'){  ?>
+         $(document).ready(function() {
+            $('#search').keyup(function(event){
+	if (event.which != 39 && event.which != 37 && event.which != 38 && event.which != 40 && event.which != 13 && event.which != 9) {     		
+		$("#oc_search_suggestions").remove();
+		$(".searchBox").append('<div id="oc_search_suggestions"></div>');
+	}
+		
+             fieldVal = $(this).val();
+             fieldName = $(this).attr('name');
+            if(fieldVal.length >= min_char_to_perform_search){     
+                    var fieldParent = $("#oc_search_suggestions");
+                    if (event.which != 39 && event.which != 37 && event.which != 38 && event.which != 40 && event.which != 13 && event.which != 9) {           
+                        getSuggestion(fieldVal,fieldName);
+                    } else {
+                          var fieldChild = fieldParent.find('#searchresults');
+                             switch (event.which){
+                                case 40:                        
+                                    keyEvent(fieldChild, 'next');
+                                    break;                            
+                               case 38:                        
+                                    keyEvent(fieldChild, 'prev');
+                                    break;                            
+                               case 13:                        
+                                    if (fieldChild.find("a[class='qss_selected']").length > 0) {
+                                             location.href = fieldChild.find("a[class='qss_selected']").attr('href');
+                                    }
+                                    return false;
+                                    break;                            
+                                case 9:                        
+                                    offFocus(this);
+                                    fieldChild.find("a").removeClass("qss_selected");
+                                    break;
+                            
+                            }
+                            }
+                            }else{
+                                offFocus(this);
+                            }
+                            });
+                                    $('#search input').live("blur", function() {
+                            offFocus(this);
+                                    $("#searchresults >a").removeClass("qss_selected");
+                            });
+                            })
+
+                                    function offFocus(fieldChild){
+                                        $("#oc_search_suggestions").delay('100').fadeOut();
+					
+                                    }
+                                    
+                            function getSuggestion(value,name) {
+                            $('#search input').addClass('qss_loading');
+                            $.ajax({
+                            type: "GET",
+                                    url: 'index.php?route=module/quick_smart_search',
+                                    data: name+'=' + value,
+                                    success: function(data) {
+                                    $("#oc_search_suggestions").fadeIn();
+                                             $('#search input').removeClass('qss_loading');
+                                            $("#oc_search_suggestions").html(data);
+                                         }
+                          })
+                            }
+
+                            function keyEvent(fieldChild, action) {
+                                     ac = 0;
+                                    fieldChild.find("a").each(function() {
+                                    if ($(this).attr("class") == "qss_selected")
+                                            ac = 1;
+                                    });
+                                            if (ac == 1)
+                                    {
+                                        var sel = fieldChild.find("a[class='qss_selected']");
+                                                (action == 'next') ? sel.nextAll('a:first').addClass("qss_selected") : sel.prevAll('a:first').addClass("qss_selected");
+                                                sel.removeClass("qss_selected");
+                                        }
+                                        else
+                                    {
+                                        (action == 'next') ? fieldChild.find("a:first").addClass("qss_selected") : fieldChild.find("a:last").addClass("qss_selected");
+                                        }
+                                 }
+                                 <?php  }?> 
+                //--></script>
+        <?php echo $qss_style;?>]]></add>
+        </operation>
+                
+    </file>
+	
+    <file name="catalog/controller/common/header.php">
+        <operation error="abort">
+            <search position="after" ><![CDATA[function index() {]]></search>
+            <add><![CDATA[ if ($this->cache->get('qss') && $this->config->get('qss_status')) {
+            $qss = $this->cache->get('qss');
+            $qss_result_box_width = $qss['qss_result_box_width'];
+            $qss_category_heading_background_color = $qss['qss_category_heading_background_color'];
+            $qss_background_color = $qss['qss_background_color'];
+            $qss_heighlight_color = $qss['qss_heighlight_color'];
+            $qss_category_heading_font_color = $qss['qss_category_heading_font_color'];
+            $qss_category_heading_font_size = $qss['qss_category_heading_font_size'];
+            $qss_product_name_font_color = $qss['qss_product_name_font_color'];
+            $qss_product_name_font_size = $qss['qss_product_name_font_size'];
+            $qss_product_discription_font_color = $qss['qss_product_discription_font_color'];
+            $qss_product_discription_font_size = $qss['qss_product_discription_font_size'];
+            $qss_product_price_font_color = $qss['qss_product_price_font_color'];
+            $qss_product_price_font_size = $qss['qss_product_price_font_size'];
+            $qss_min_word_lenght_to_active_search = $qss['qss_min_word_lenght_to_active_search'];
+            $qss_status = $qss['qss_status'];
+            $qss_border_color = $qss['qss_border_color'];
+            $qss_product_image_visibility = $qss['qss_product_image_visibility'];
+            if ($qss_product_image_visibility == '1') {
+                $qss_product_name_width = $qss_result_box_width-$qss['qss_product_image_width']-24;                
+            }else{
+                $qss_product_name_width = $qss_result_box_width-24;    
+                }
+          
+        } else {
+            $qss_result_box_width = $this->config->get('qss_result_box_width');
+            $qss_category_heading_background_color = $this->config->get('qss_category_heading_background_color');
+            $qss_background_color = $this->config->get('qss_background_color');
+            $qss_heighlight_color = $this->config->get('qss_heighlight_color');
+            $qss_category_heading_font_color = $this->config->get('qss_category_heading_font_color');
+            $qss_category_heading_font_size = $this->config->get('qss_category_heading_font_size');
+            $qss_product_name_font_color = $this->config->get('qss_product_name_font_color');
+            $qss_product_name_font_size = $this->config->get('qss_product_name_font_size');
+            $qss_product_discription_font_color = $this->config->get('qss_product_discription_font_color');
+            $qss_product_discription_font_size = $this->config->get('qss_product_discription_font_size');
+            $qss_product_price_font_color = $this->config->get('qss_product_price_font_color');
+            $qss_product_price_font_size = $this->config->get('qss_product_price_font_size');
+            $qss_min_word_lenght_to_active_search = $this->config->get('qss_min_word_lenght_to_active_search');
+            $qss_status = $this->config->get('qss_status');
+            $qss_border_color = $this->config->get('qss_border_color');
+              $qss_product_image_visibility = $this->config->get('qss_product_image_visibility');
+            if ($qss_product_image_visibility == '1') {
+                $qss_product_name_width = $qss_result_box_width - $this->config->get('qss_product_image_width')-24; 
+            }else{
+                $qss_product_name_width = $qss_result_box_width-24;    
+                }
+            
+        }
+
+        $qss_style = '<style>';
+     
+        $qss_style .= '#oc_search_suggestions {position:absolute !important;z-index:999 !important;color:'.$qss_product_discription_font_color.';display: table;float:left;width: '.$qss_result_box_width.'px !important;margin: 0 auto;background: '.$qss_background_color.'; box-shadow: 0 1px 2px rgba(0,0,0,0.3); 
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.3);margin-bottom: 16px; border-radius: 5px;position: relative; font-family:Verdana, Geneva, sans-serif;overflow:hidden;border:'.$qss_border_color.' 1px solid /\9;}';
+        $qss_style .= '#oc_search_suggestions .category{width: '.$qss_result_box_width.'px;	clear:both;background: '.$qss_category_heading_background_color.';display: table-row;float:left;padding: 5px;	font-size:'.$qss_category_heading_font_size.'px;color:'.$qss_category_heading_font_color.';font-weight: bold;}';
+        $qss_style .= '#oc_search_suggestions #searchresults a{font-size:'.$qss_product_discription_font_size.'px;display: table-row;padding: 8px;width: '.($qss_result_box_width-14).'px;float: left;text-decoration: none;color: '.$qss_product_discription_font_color.';border-bottom: '.$qss_border_color.' 1px solid;}';     
+        $qss_style .= '#oc_search_suggestions #searchresults a img{float: left;margin-right: 8px;border: #F7F7F7 1px solid;}';
+         $qss_style .= '#oc_search_suggestions #searchresults a .searchheading{font-size:'.$qss_product_name_font_size.'px;font-weight: bold;display:block;	float:left;	width: '.$qss_product_name_width.'px;color:'.$qss_product_name_font_color.';}';        
+         $qss_style .= '#oc_search_suggestions #searchresults a .searchheading_price{font-size:'.$qss_product_price_font_size.'px;font-weight: bold;display:block;clear: right;float:right;color:'.$qss_product_price_font_color.';}';
+         $qss_style .= '#oc_search_suggestions #searchresults a:hover{text-decoration: none;background: '.$qss_heighlight_color.';}';                
+         $qss_style .= '.qss_selected{text-decoration: none;background: '.$qss_heighlight_color.';}';                
+         $qss_style .= '#oc_search_suggestions #searchresults a#oc_search_more_results{font-weight: bold;text-align: center;border: none;padding: 10px 0 10px 0;	display:block;width: 100%;color:'.$qss_product_discription_font_color.';}';       
+          $qss_style .= '.qss_loading {background: #FFF url(image/data/loading.gif) no-repeat right !important;}'; 
+           $qss_style .= '.nivo-controlNav {z-index:98 !important;}';
+  $qss_style.= '</style>';
+
+        $this->data['qss_style'] = $qss_style;
+        $this->data['qss_status'] = $qss_status;
+        $this->data['qss_min_word_lenght_to_active_search'] = $qss_min_word_lenght_to_active_search;]]></add>
+        </operation>
+             
+    </file>
+                
+   
+
+</modification>

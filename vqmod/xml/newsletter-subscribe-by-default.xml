@@ -1,0 +1,18 @@
+<modification>
+	<id><![CDATA[@tik Yes to newsletter]]></id>
+	<version><![CDATA[1.2]]></version>
+	<vqmver><![CDATA[2.1.7]]></vqmver>
+	<author><![CDATA[OC2PS]]></author>
+	<file name="catalog/view/theme/*/template/account/register.tpl">
+		<operation>
+			<search position="after" error="log"><![CDATA[$entry_newsletter; ?></td>]]></search>
+			<add><![CDATA[<?php $newsletter = 1; ?>]]></add>
+		</operation>
+	</file>
+	<file name="catalog/view/theme/*/template/checkout/register.tpl">
+		<operation>
+			<search position="replace" error="log"><![CDATA[name="newsletter" ]]></search>
+			<add><![CDATA[name="newsletter" checked="checked" ]]></add>
+		</operation>
+	</file>
+</modification>

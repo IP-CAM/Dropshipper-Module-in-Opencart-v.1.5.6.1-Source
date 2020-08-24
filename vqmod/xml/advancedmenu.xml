@@ -1,0 +1,54 @@
+<modification>
+  <id>Advanced menu</id>
+  <version>1.0.0</version>
+  <vqmver>1.2.3</vqmver>
+  <author>www.ocmodules.com</author>
+  <file name="catalog/controller/common/seo_url.php">
+    <operation>
+      <search position="after" index="1">
+        <![CDATA[} elseif (isset($this->request->get['path'])) {]]>
+      </search>
+      <add>
+        <![CDATA[//FULL lAYERED MENU WITH SEO
+          
+          if(isset($this->request->get['dnd'])){
+          
+          $this->request->get['route'] = 'module/supercategorymenuadvancedseemore';
+          
+          }elseif (isset($this->request->get['filter']) or isset($this->request->get['PRICERANGE']) or $this->request->get['path']==0){
+          
+          $this->request->get['route'] = 'product/asearch';
+          
+          }else{]]>
+      </add>
+    </operation>
+    <operation>
+      <search position="after" index="1">
+        <![CDATA[$this->request->get['route'] = 'product/category';]]>
+      </search>
+      <add>
+        <![CDATA[}]]>
+      </add>
+    </operation>
+  </file>
+  <file name="catalog/controller/product/category.php">
+    <operation>
+      <search position="after" index="1">
+        <![CDATA['common/content_top',]]>
+      </search>
+      <add>
+        <![CDATA['common/content_filter',]]>
+      </add>
+    </operation>
+  </file>
+  <file name="catalog/view/theme/*/template/product/category.tpl">
+    <operation>
+      <search position="before" index="1">
+        <![CDATA[<?php if ($categories) { ?>]]>
+      </search>
+      <add>
+        <![CDATA[<?php echo $content_filter; ?>]]>
+      </add>
+    </operation>
+  </file>
+</modification>
